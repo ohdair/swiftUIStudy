@@ -38,8 +38,9 @@ struct CircleGroupView_Previews: PreviewProvider {
         ZStack {
             Color("ColorBlue")
                 .ignoresSafeArea(.all, edges: .all)
-            
+
             CircleGroupView(ShapeColor: .white, ShapeOpacity: 0.2)
         }
+        CircleGroupView(ShapeColor: .blue, ShapeOpacity: 0.2)
     }
 }
